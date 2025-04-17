@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'bookish-acorn-rp7g575477vf5vj-8000.app.github.dev',
+    'bookish-acorn-rp7g575477vf5vj-5173.app.github.dev',
 ]
 
 
