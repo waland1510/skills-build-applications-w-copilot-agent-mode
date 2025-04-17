@@ -4,7 +4,7 @@ function Teams() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    fetch('https://bookish-acorn-rp7g575477vf5vj-8000.app.github.dev/api-root/teams/')
+    fetch('https://bookish-acorn-rp7g575477vf5vj-8000.app.github.dev/api/teams/')
       .then(response => response.json())
       .then(data => setTeams(data))
       .catch(error => console.error('Error fetching teams:', error));

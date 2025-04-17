@@ -4,7 +4,7 @@ function Activities() {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    fetch('https://bookish-acorn-rp7g575477vf5vj-8000.app.github.dev/api-root/activity/')
+    fetch('https://bookish-acorn-rp7g575477vf5vj-8000.app.github.dev/api/activity/')
       .then(response => response.json())
       .then(data => setActivities(data))
       .catch(error => console.error('Error fetching activities:', error));
